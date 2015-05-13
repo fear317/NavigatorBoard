@@ -1,0 +1,467 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		86923B9B1B01E62C00A23C5E /* wy.png in Resources */ = {isa = PBXBuildFile; fileRef = 86923B9A1B01E62C00A23C5E /* wy.png */; };
+		86AB739B1B007D8200F453D9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 86AB739A1B007D8200F453D9 /* main.m */; };
+		86AB739E1B007D8200F453D9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 86AB739D1B007D8200F453D9 /* AppDelegate.m */; };
+		86AB73A11B007D8200F453D9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86AB73A01B007D8200F453D9 /* ViewController.m */; };
+		86AB73A41B007D8200F453D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86AB73A21B007D8200F453D9 /* Main.storyboard */; };
+		86AB73A61B007D8200F453D9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86AB73A51B007D8200F453D9 /* Images.xcassets */; };
+		86AB73A91B007D8200F453D9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 86AB73A71B007D8200F453D9 /* LaunchScreen.xib */; };
+		86AB73B51B007D8200F453D9 /* LeoWetsiteNavigatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 86AB73B41B007D8200F453D9 /* LeoWetsiteNavigatorTests.m */; };
+		86AB73C01B007DB400F453D9 /* LeoWebsiteCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 86AB73BF1B007DB400F453D9 /* LeoWebsiteCell.m */; };
+		86AB73C31B007DFE00F453D9 /* LeoWebsitePanel.m in Sources */ = {isa = PBXBuildFile; fileRef = 86AB73C21B007DFE00F453D9 /* LeoWebsitePanel.m */; };
+		86AB73C51B008C4300F453D9 /* icon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 86AB73C41B008C4300F453D9 /* icon.jpg */; };
+		86AB73C81B0091E700F453D9 /* arrowIconDown.png in Resources */ = {isa = PBXBuildFile; fileRef = 86AB73C61B0091E700F453D9 /* arrowIconDown.png */; };
+		86AB73C91B0091E700F453D9 /* arrowIconUp.png in Resources */ = {isa = PBXBuildFile; fileRef = 86AB73C71B0091E700F453D9 /* arrowIconUp.png */; };
+		86AB73CC1B00ABD700F453D9 /* LeoSecondaryWebsitePanel.m in Sources */ = {isa = PBXBuildFile; fileRef = 86AB73CB1B00ABD700F453D9 /* LeoSecondaryWebsitePanel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		86AB73AF1B007D8200F453D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 86AB738D1B007D8200F453D9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 86AB73941B007D8200F453D9;
+			remoteInfo = LeoWetsiteNavigator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		86923B9A1B01E62C00A23C5E /* wy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wy.png; sourceTree = "<group>"; };
+		86AB73951B007D8200F453D9 /* LeoWetsiteNavigator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeoWetsiteNavigator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		86AB73991B007D8200F453D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86AB739A1B007D8200F453D9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		86AB739C1B007D8200F453D9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		86AB739D1B007D8200F453D9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		86AB739F1B007D8200F453D9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		86AB73A01B007D8200F453D9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		86AB73A31B007D8200F453D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		86AB73A51B007D8200F453D9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		86AB73A81B007D8200F453D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		86AB73AE1B007D8200F453D9 /* LeoWetsiteNavigatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeoWetsiteNavigatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		86AB73B31B007D8200F453D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86AB73B41B007D8200F453D9 /* LeoWetsiteNavigatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeoWetsiteNavigatorTests.m; sourceTree = "<group>"; };
+		86AB73BE1B007DB400F453D9 /* LeoWebsiteCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeoWebsiteCell.h; sourceTree = "<group>"; };
+		86AB73BF1B007DB400F453D9 /* LeoWebsiteCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeoWebsiteCell.m; sourceTree = "<group>"; };
+		86AB73C11B007DFE00F453D9 /* LeoWebsitePanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeoWebsitePanel.h; sourceTree = "<group>"; };
+		86AB73C21B007DFE00F453D9 /* LeoWebsitePanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeoWebsitePanel.m; sourceTree = "<group>"; };
+		86AB73C41B008C4300F453D9 /* icon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = icon.jpg; sourceTree = "<group>"; };
+		86AB73C61B0091E700F453D9 /* arrowIconDown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrowIconDown.png; sourceTree = "<group>"; };
+		86AB73C71B0091E700F453D9 /* arrowIconUp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrowIconUp.png; sourceTree = "<group>"; };
+		86AB73CA1B00ABD700F453D9 /* LeoSecondaryWebsitePanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeoSecondaryWebsitePanel.h; sourceTree = "<group>"; };
+		86AB73CB1B00ABD700F453D9 /* LeoSecondaryWebsitePanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeoSecondaryWebsitePanel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		86AB73921B007D8200F453D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86AB73AB1B007D8200F453D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		86AB738C1B007D8200F453D9 = {
+			isa = PBXGroup;
+			children = (
+				86AB73971B007D8200F453D9 /* LeoWetsiteNavigator */,
+				86AB73B11B007D8200F453D9 /* LeoWetsiteNavigatorTests */,
+				86AB73961B007D8200F453D9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		86AB73961B007D8200F453D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				86AB73951B007D8200F453D9 /* LeoWetsiteNavigator.app */,
+				86AB73AE1B007D8200F453D9 /* LeoWetsiteNavigatorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		86AB73971B007D8200F453D9 /* LeoWetsiteNavigator */ = {
+			isa = PBXGroup;
+			children = (
+				86923B9A1B01E62C00A23C5E /* wy.png */,
+				86AB73C61B0091E700F453D9 /* arrowIconDown.png */,
+				86AB73C71B0091E700F453D9 /* arrowIconUp.png */,
+				86AB73C41B008C4300F453D9 /* icon.jpg */,
+				86AB739C1B007D8200F453D9 /* AppDelegate.h */,
+				86AB739D1B007D8200F453D9 /* AppDelegate.m */,
+				86AB739F1B007D8200F453D9 /* ViewController.h */,
+				86AB73A01B007D8200F453D9 /* ViewController.m */,
+				86AB73A21B007D8200F453D9 /* Main.storyboard */,
+				86AB73A51B007D8200F453D9 /* Images.xcassets */,
+				86AB73A71B007D8200F453D9 /* LaunchScreen.xib */,
+				86AB73981B007D8200F453D9 /* Supporting Files */,
+				86AB73BE1B007DB400F453D9 /* LeoWebsiteCell.h */,
+				86AB73BF1B007DB400F453D9 /* LeoWebsiteCell.m */,
+				86AB73C11B007DFE00F453D9 /* LeoWebsitePanel.h */,
+				86AB73C21B007DFE00F453D9 /* LeoWebsitePanel.m */,
+				86AB73CA1B00ABD700F453D9 /* LeoSecondaryWebsitePanel.h */,
+				86AB73CB1B00ABD700F453D9 /* LeoSecondaryWebsitePanel.m */,
+			);
+			path = LeoWetsiteNavigator;
+			sourceTree = "<group>";
+		};
+		86AB73981B007D8200F453D9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				86AB73991B007D8200F453D9 /* Info.plist */,
+				86AB739A1B007D8200F453D9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		86AB73B11B007D8200F453D9 /* LeoWetsiteNavigatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				86AB73B41B007D8200F453D9 /* LeoWetsiteNavigatorTests.m */,
+				86AB73B21B007D8200F453D9 /* Supporting Files */,
+			);
+			path = LeoWetsiteNavigatorTests;
+			sourceTree = "<group>";
+		};
+		86AB73B21B007D8200F453D9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				86AB73B31B007D8200F453D9 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		86AB73941B007D8200F453D9 /* LeoWetsiteNavigator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86AB73B81B007D8200F453D9 /* Build configuration list for PBXNativeTarget "LeoWetsiteNavigator" */;
+			buildPhases = (
+				86AB73911B007D8200F453D9 /* Sources */,
+				86AB73921B007D8200F453D9 /* Frameworks */,
+				86AB73931B007D8200F453D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LeoWetsiteNavigator;
+			productName = LeoWetsiteNavigator;
+			productReference = 86AB73951B007D8200F453D9 /* LeoWetsiteNavigator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		86AB73AD1B007D8200F453D9 /* LeoWetsiteNavigatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86AB73BB1B007D8200F453D9 /* Build configuration list for PBXNativeTarget "LeoWetsiteNavigatorTests" */;
+			buildPhases = (
+				86AB73AA1B007D8200F453D9 /* Sources */,
+				86AB73AB1B007D8200F453D9 /* Frameworks */,
+				86AB73AC1B007D8200F453D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				86AB73B01B007D8200F453D9 /* PBXTargetDependency */,
+			);
+			name = LeoWetsiteNavigatorTests;
+			productName = LeoWetsiteNavigatorTests;
+			productReference = 86AB73AE1B007D8200F453D9 /* LeoWetsiteNavigatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		86AB738D1B007D8200F453D9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "张燎原";
+				TargetAttributes = {
+					86AB73941B007D8200F453D9 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					86AB73AD1B007D8200F453D9 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 86AB73941B007D8200F453D9;
+					};
+				};
+			};
+			buildConfigurationList = 86AB73901B007D8200F453D9 /* Build configuration list for PBXProject "LeoWetsiteNavigator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 86AB738C1B007D8200F453D9;
+			productRefGroup = 86AB73961B007D8200F453D9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				86AB73941B007D8200F453D9 /* LeoWetsiteNavigator */,
+				86AB73AD1B007D8200F453D9 /* LeoWetsiteNavigatorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		86AB73931B007D8200F453D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86AB73A41B007D8200F453D9 /* Main.storyboard in Resources */,
+				86AB73A91B007D8200F453D9 /* LaunchScreen.xib in Resources */,
+				86923B9B1B01E62C00A23C5E /* wy.png in Resources */,
+				86AB73C81B0091E700F453D9 /* arrowIconDown.png in Resources */,
+				86AB73C91B0091E700F453D9 /* arrowIconUp.png in Resources */,
+				86AB73C51B008C4300F453D9 /* icon.jpg in Resources */,
+				86AB73A61B007D8200F453D9 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86AB73AC1B007D8200F453D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		86AB73911B007D8200F453D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86AB73A11B007D8200F453D9 /* ViewController.m in Sources */,
+				86AB739E1B007D8200F453D9 /* AppDelegate.m in Sources */,
+				86AB73C01B007DB400F453D9 /* LeoWebsiteCell.m in Sources */,
+				86AB739B1B007D8200F453D9 /* main.m in Sources */,
+				86AB73CC1B00ABD700F453D9 /* LeoSecondaryWebsitePanel.m in Sources */,
+				86AB73C31B007DFE00F453D9 /* LeoWebsitePanel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86AB73AA1B007D8200F453D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86AB73B51B007D8200F453D9 /* LeoWetsiteNavigatorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		86AB73B01B007D8200F453D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 86AB73941B007D8200F453D9 /* LeoWetsiteNavigator */;
+			targetProxy = 86AB73AF1B007D8200F453D9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		86AB73A21B007D8200F453D9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				86AB73A31B007D8200F453D9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		86AB73A71B007D8200F453D9 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				86AB73A81B007D8200F453D9 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		86AB73B61B007D8200F453D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		86AB73B71B007D8200F453D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		86AB73B91B007D8200F453D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LeoWetsiteNavigator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		86AB73BA1B007D8200F453D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LeoWetsiteNavigator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		86AB73BC1B007D8200F453D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LeoWetsiteNavigatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LeoWetsiteNavigator.app/LeoWetsiteNavigator";
+			};
+			name = Debug;
+		};
+		86AB73BD1B007D8200F453D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LeoWetsiteNavigatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LeoWetsiteNavigator.app/LeoWetsiteNavigator";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		86AB73901B007D8200F453D9 /* Build configuration list for PBXProject "LeoWetsiteNavigator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86AB73B61B007D8200F453D9 /* Debug */,
+				86AB73B71B007D8200F453D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86AB73B81B007D8200F453D9 /* Build configuration list for PBXNativeTarget "LeoWetsiteNavigator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86AB73B91B007D8200F453D9 /* Debug */,
+				86AB73BA1B007D8200F453D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86AB73BB1B007D8200F453D9 /* Build configuration list for PBXNativeTarget "LeoWetsiteNavigatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86AB73BC1B007D8200F453D9 /* Debug */,
+				86AB73BD1B007D8200F453D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 86AB738D1B007D8200F453D9 /* Project object */;
+}
