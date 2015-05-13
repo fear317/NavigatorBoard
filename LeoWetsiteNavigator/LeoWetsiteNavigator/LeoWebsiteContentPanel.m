@@ -1,14 +1,14 @@
 //
-//  LeoSecondaryWebsitePanel.m
+//  LeoWebsiteContentPanel.m
 //  LeoWetsiteNavigator
 //
 //  Created by 张燎原 on 15/5/11.
 //  Copyright (c) 2015年 张燎原. All rights reserved.
 //
 
-#import "LeoSecondaryWebsitePanel.h"
+#import "LeoWebsiteContentPanel.h"
 
-@interface LeoSecondaryWebsitePanel ()
+@interface LeoWebsiteContentPanel ()
 {
     CGFloat _cellHeight;
     CGFloat _cellCountsForRow;
@@ -17,7 +17,7 @@
 @property (strong, nonatomic) NSArray *wetsiteArr;
 @end
 
-@implementation LeoSecondaryWebsitePanel
+@implementation LeoWebsiteContentPanel
 
 - (id)initWithFrame:(CGRect)frame
 {
@@ -77,7 +77,6 @@
                 [cell setSelectionStyle:UITableViewCellSelectionStyleNone];
             }
         }
-//        return cell;
     }else {
         NSArray *websiteCellArr = [cell subviews];
         for (UIView *subView in websiteCellArr) {
@@ -131,4 +130,12 @@
         [self.delegate didTappedCellWithName:websiteCell.websiteName.text];
     }
 }
+
+- (void)updateScrollEnabled:(BOOL)status
+{
+    if (_tableView) {
+        [_tableView setScrollEnabled:NO];
+    }
+}
+
 @end

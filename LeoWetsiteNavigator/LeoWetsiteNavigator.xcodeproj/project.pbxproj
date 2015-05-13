@@ -20,7 +20,7 @@
 		86AB73C51B008C4300F453D9 /* icon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 86AB73C41B008C4300F453D9 /* icon.jpg */; };
 		86AB73C81B0091E700F453D9 /* arrowIconDown.png in Resources */ = {isa = PBXBuildFile; fileRef = 86AB73C61B0091E700F453D9 /* arrowIconDown.png */; };
 		86AB73C91B0091E700F453D9 /* arrowIconUp.png in Resources */ = {isa = PBXBuildFile; fileRef = 86AB73C71B0091E700F453D9 /* arrowIconUp.png */; };
-		86AB73CC1B00ABD700F453D9 /* LeoSecondaryWebsitePanel.m in Sources */ = {isa = PBXBuildFile; fileRef = 86AB73CB1B00ABD700F453D9 /* LeoSecondaryWebsitePanel.m */; };
+		86AB73CC1B00ABD700F453D9 /* LeoWebsiteContentPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = 86AB73CB1B00ABD700F453D9 /* LeoWebsiteContentPanel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,8 +55,8 @@
 		86AB73C41B008C4300F453D9 /* icon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = icon.jpg; sourceTree = "<group>"; };
 		86AB73C61B0091E700F453D9 /* arrowIconDown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrowIconDown.png; sourceTree = "<group>"; };
 		86AB73C71B0091E700F453D9 /* arrowIconUp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrowIconUp.png; sourceTree = "<group>"; };
-		86AB73CA1B00ABD700F453D9 /* LeoSecondaryWebsitePanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeoSecondaryWebsitePanel.h; sourceTree = "<group>"; };
-		86AB73CB1B00ABD700F453D9 /* LeoSecondaryWebsitePanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeoSecondaryWebsitePanel.m; sourceTree = "<group>"; };
+		86AB73CA1B00ABD700F453D9 /* LeoWebsiteContentPanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeoWebsiteContentPanel.h; sourceTree = "<group>"; };
+		86AB73CB1B00ABD700F453D9 /* LeoWebsiteContentPanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeoWebsiteContentPanel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,8 +114,8 @@
 				86AB73BF1B007DB400F453D9 /* LeoWebsiteCell.m */,
 				86AB73C11B007DFE00F453D9 /* LeoWebsitePanel.h */,
 				86AB73C21B007DFE00F453D9 /* LeoWebsitePanel.m */,
-				86AB73CA1B00ABD700F453D9 /* LeoSecondaryWebsitePanel.h */,
-				86AB73CB1B00ABD700F453D9 /* LeoSecondaryWebsitePanel.m */,
+				86AB73CA1B00ABD700F453D9 /* LeoWebsiteContentPanel.h */,
+				86AB73CB1B00ABD700F453D9 /* LeoWebsiteContentPanel.m */,
 			);
 			path = LeoWetsiteNavigator;
 			sourceTree = "<group>";
@@ -254,7 +254,7 @@
 				86AB739E1B007D8200F453D9 /* AppDelegate.m in Sources */,
 				86AB73C01B007DB400F453D9 /* LeoWebsiteCell.m in Sources */,
 				86AB739B1B007D8200F453D9 /* main.m in Sources */,
-				86AB73CC1B00ABD700F453D9 /* LeoSecondaryWebsitePanel.m in Sources */,
+				86AB73CC1B00ABD700F453D9 /* LeoWebsiteContentPanel.m in Sources */,
 				86AB73C31B007DFE00F453D9 /* LeoWebsitePanel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

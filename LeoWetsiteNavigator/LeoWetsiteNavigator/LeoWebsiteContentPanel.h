@@ -1,5 +1,5 @@
 //
-//  LeoSecondaryWebsitePanel.h
+//  LeoWebsiteContentPanel.h
 //  LeoWetsiteNavigator
 //
 //  Created by 张燎原 on 15/5/11.
@@ -9,11 +9,10 @@
 #import <UIKit/UIKit.h>
 #import "LeoWebsiteCell.h"
 
-@interface LeoSecondaryWebsitePanel :UIView <UITableViewDataSource, UITableViewDelegate>
+@interface LeoWebsiteContentPanel :UIView <UITableViewDataSource, UITableViewDelegate>
 
 @property (strong, nonatomic) id<LeoWebsiteCellDelegate> delegate;
 
 - (void)initSecondaryWebsitePanelWith:(NSArray *)websiteArr  andCellHeight:(NSInteger)cellHeight andCellCountForRow:(NSInteger)count;
-//- (void)didTappedCellWith:(NSInteger)tag atIndexPath:(NSInteger)indexPath;
-
+- (void)updateScrollEnabled:(BOOL)status;
 @end
